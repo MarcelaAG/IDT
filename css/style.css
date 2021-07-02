@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Avenir Light", Helvetica;
+    src: url("images/fonts/Metropolis/Metropolis-Light.otf");
+  }
+
+  @font-face {
+    font-family: "Avenir Medium", Helvetica;
+    src: url("images/fonts/Metropolis/Metropolis-Medium.otf");
+  }
+
+  @font-face {
+    font-family: "Avenir Bold", Helvetica;
+    src: url("/Users/Paprikette/Descodeuses/HACKATHON/LINDUSTRIEDESTALENTS/PROTOTYPE/images/fonts/Metropolis/Metropolis-Bold.otf");
+  }
+
+  *{
+    font-family: "Avenir Medium", Helvetica;
+  }
+
+  h1{
+    display: inline-block;
+    position: relative;
+  }
+  
+  h1:after{
+    content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(193, 54, 51);
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+  
+  }
+  
+  h1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.navbar-toggler{
+  background-color: rgb(193, 54, 51);
+  z-index: 2;
+}
+
+  .nav-item{
+    list-style: none;
+  }
+
+  .nav-link {
+    display: inline-block;
+    position: relative;
+    color: rgb(193, 54, 51);
+  }
+  
+  .nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(193, 54, 51);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+
+ 
+
+  .methode{
+    -webkit-box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75); 
+    box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
+    border-top: 2px dashed rgb(193, 54, 51); 
+    border-left: 2px dashed rgb(193, 54, 51);
+  }
+
+.avatar{
+  display: block;
+  width: 100%;
+}
+
+.image__overlay{
+  position: absolute;
+  top: 0;
+  left: 2;
+  width: 90%;
+  height: 100%;
+  background:  rgb(193, 54, 51, 0.9);
+  color: white;
+  font-family: "Avenir Light";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image__overlay > *{
+  transform: translateY(10px);
+  transition: transform 0.25s;
+}
+.image__overlay:hover{
+  opacity: 1;
+}
+.image__overlay:hover > *{
+  transform: translateY(0);
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
+}
+
+

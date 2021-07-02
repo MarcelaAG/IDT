@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="0.5 0.5 91 91" viewBox="0 0 92 92" xmlns="http://www.w3.org/2000/svg" data-type="ugc">
+    <g>
+        <defs>
+            <clipPath transform="translate(-9.69 -10.29)" id="b1d28e34-8df1-45bb-b130-8bf0b688e6a0">
+                <path d="M71.52 27.6v34.87h-17.7V27.6h17.7z"/>
+            </clipPath>
+        </defs>
+        <path d="M46 91.5S.5 90.07.5 46 44.58.5 46 .5 88.65.5 91.5 46c0 0 .28 27.14-21.19 38.45l-4.48 2.51" stroke="#000000" stroke-miterlimit="10" fill="none"/>
+        <path stroke="#000000" stroke-miterlimit="10" fill="none" d="M65.91 67.22v21.44h20.61"/>
+        <path stroke-width=".75" stroke="#cd1719" stroke-miterlimit="10" fill="none" d="M12.59 50.27H6.9"/>
+        <path stroke-width=".75" stroke="#cd1719" stroke-miterlimit="10" fill="none" d="M83.68 50.27h-5.69"/>
+        <path stroke-width=".75" stroke="#cd1719" stroke-miterlimit="10" fill="none" d="M20.58 22.07l-4.61-3.33"/>
+        <path stroke-width=".75" stroke="#cd1719" stroke-miterlimit="10" fill="none" d="M28.67 72.29l-3.73 4.29"/>
+        <path stroke-width=".75" stroke="#cd1719" stroke-miterlimit="10" fill="none" d="M69.91 18.26l-3.74 4.29"/>
+        <g clip-path="url(#b1d28e34-8df1-45bb-b130-8bf0b688e6a0)">
+            <path stroke-dasharray="3.17 3.17" stroke="#d2232a" stroke-width=".75" fill="none" d="M44.51 17.32l.28 34.87"/>
+            <path stroke-dasharray="3.47 3.47" stroke="#d2232a" stroke-width=".75" fill="none" d="M61.83 51.68l-17.37.13"/>
+        </g>
+    </g>
+</svg>

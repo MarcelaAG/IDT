@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.story_date {
+    width: 200px;
+    padding: 10px 30px;
+    margin-left: 50px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: -50px 50px 0px -30px #FF0000;
+    -webkit-box-shadow: -50px 30px 0px -4px #FF0000; 
+}
+
+.is_visible {
+    opacity: 1;
+}
+
+.is_less_visible {
+    opacity: 0.5;
+}

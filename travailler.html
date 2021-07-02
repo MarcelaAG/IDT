@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/travailler.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<!--Font awesome-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>IDT Page Formulaire</title>
+</head>
+<body>
+<!--------------------------------Header------------------------->
+<header>
+    <nav class="navbar fixed-top navbar-dark navbar-expand-md bg-white">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/LogoIDT_noir_RVB.png" height="70" class="d-inline-block align-top" alt="logo IDT">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlink">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-center" id="navbarlink">
+            <div class="d-flex flex-column flex-md-row">
+            <a class="nav-link text-dark text-uppercase" href="qui.html" >Qui sommes nous?</a>
+            <a class="nav-link text-dark text-uppercase" href="talents.html">Nos Talents</a>
+            <a class="nav-link text-dark text-uppercase" href="travailler.html">Travailler avec nous</a>
+            <a class="nav-link text-dark text-uppercase" href="#">Blog</a>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<a id="back-to-top" href="#" class="btn btn-light border border-dark btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+<!-------------Choices for form------------>
+<div class="container pt-5">
+  <div class="row">
+
+    <div class="col-12 p-5 d-flex justify-content-center">
+        <h1 class="text-uppercase text-center my-5">travailler avec nous</h1>
+
+    </div>
+    
+   
+      <div class="col-lg-6 col-md-6 ">
+     <div class="cta-open box-shadow ripple text-center pt-3 mr-0"> <img class="icon" src="images/group.svg"><p >Faire appel à nos services</p> </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 ">
+     <div class="cta-open box-shadow ripple text-center pt-3 mr-0"><img class="icon" src="/images/class.png"><p>Devenir Mentor</p></div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 ">
+      <div class="cta-open box-shadow ripple text-center pt-3 ml-0"> <img class="icon" src="/images/star.png">    <p>Devenir Talent</p></div>
+    </div>
+
+
+<div class="col-lg-6 col-md-6 ">
+        <div class="cta-open box-shadow ripple text-center pt-3 ml-0"> <img class="icon" src="/images/handshake.svg">  <p>Nous Soutenir</p>
+  </div>
+</div>
+</div>
+</div>
+
+        <!------------SLIDE OUT FORM---------------------------->
+     
+      <section class="toggle-form">
+        <div class="formwrap px-4">
+          <div class="icon-close pos-a"><img id="closeX" src="/images/delete.png" alt="Close Button"></div>
+          <p class="text-center mt-4 h3">Let's Talk Right Now</p>
+          <hr class="dashed-line">
+          
+          <form action="#" method="post" role="form" data-toggle="validator">
+              <div class="form-group margin-top-m">
+                <label for="fname" class="control-label">First name</label>
+                <input type="text" id="fname" name="fname" class="form-control" data-error="Please enter your first name" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="lname" class="control-label">Last name</label>
+                <input type="text" id="lname" name="lname" class="form-control required" data-error="Please enter your last name" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="email_address" class="control-label">Email address</label>
+                <input type="text" id="email_address" name="email_address" class="form-control validate[required,custom[email]]" data-error="Please enter a valid email" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="phone" class="control-label">Phone number</label>
+                <input type="text" id="phone" name="phone" class="form-control required" data-error="Please enter a valid phone number" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <textarea rows="4" cols="31" name="comment" form="usrform">
+                Your message here.</textarea>
+              <a class="ecoute" href="#">Nous adorons vous écouter</a>
+              <button class="formbtn" type="submit">Envoyer votre demande</button>
+          </form>    
+        </div>
+        <div class="toggle-bg"></div>
+      </section>
+<!-------------------Footer-------------->
+<hr class="dashed-line">
+<footer class="" style="background-color: #fff">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Image -->
+    <section class="">
+      <div class="row">
+        <div class="  group-pic col-md-12 col-lg-8 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+
+            <img 
+              src="/images/Signature contrat talent.png"
+              class="w-100 img-fluid" style="box-shadow: 5px 4px 6px 0px rgba(0, 0, 0, 0.75);" />
+             
+              <div
+                class="mask"
+                style="background-color: #fff;"
+              ></div>
+          </div>
+        </div>
+
+        <div class="pt-5 d-flex flex-column align-items-center justify-content-center footer-address cta-open ripple-black col-lg-4 col-md-4 mb-4 mb-md-0 " style="background-color: #fff;">
+          <h4 class="text-uppercase text-left">Nous Contacter</h4>
+          <p class="">Industrie Des Talents<br>38 rue de l'espoir<br>93170 Bagnolet<br>(+33)1 43 88 83 33<br>contact@industriedestalents.com</p> </div>
+        </div>
+      </div>
+  
+      <!------------------------ Grid container Social Links--------------------------------->
+   <!-- Grid container -->
+   <div class="d-flex p-4 pb-0 justify-content-center">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1 ripple-black" href="#!" role="button"
+        ><i class="fab fa-facebook-f" style="color: #D1232A;"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1 ripple-black" href="#!" role="button"
+        ><i class="fab fa-instagram" style="color: #D1232A;"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1 ripple-black" href="#!" role="button"
+        ><i class="fab fa-linkedin-in" style="color: #D1232A;"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+  <!-- Copyright -->
+  <div class="text-center p-2" style="background-color: rgb(241, 240, 240)">
+    © 2021 Copyright:
+    <a class=""  style="color: rgb(19, 18, 18);">DesCodeuses</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+<div class="freepik">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<script src="js/form.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
